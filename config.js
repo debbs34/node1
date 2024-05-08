@@ -20,8 +20,8 @@ const emailTransporter = nodemailer.createTransport({
     port: 587,
     secure: false,
     auth: {
-        user: 'AKIA36SILFG4J3KCP4WM',
-        pass: 'BFqfZQUrC1QSx2wuSvKP5wywPQvQ7k3UiMDAakfBJOO3'
+        user: 'smtp-user',
+        pass: 'smtp-pass'
     }
 });
 
